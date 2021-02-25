@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container">
+    <div className="app">
       <section className="section">
         <AccounBalance />
       </section>
