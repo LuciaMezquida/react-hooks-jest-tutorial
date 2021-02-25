@@ -1,0 +1,38 @@
+.box {
+  background-color: white;
+  margin: 20px;
+}
+.title {
+  color: #0808088c;
+  margin-bottom: 8%;
+}
+.amount {
+  position: relative;
+  padding: 4%;
+  border: 10px solid orange;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amount:before {
+  content: "";
+  float: left;
+  width: auto;
+  padding-bottom: 100%;
+}
+.saving {
+  border-color: #00ff62;
+}
+.btn {
+  margin-top: 10%;
+  width: 40%;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
