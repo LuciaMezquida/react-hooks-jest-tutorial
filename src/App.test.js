@@ -28,3 +28,10 @@ describe("rendering components", () => {
     expect(label).toEqual("Send 100$");
   });
 });
+
+describe("passing props", () => {
+  const notificationWrapper = mount(<Notification balance={userBalance} />);
+  it("accept balance props", () => {
+    expect(notificationWrapper.props().balance).toEqual(userBalance);
+  });
+});
