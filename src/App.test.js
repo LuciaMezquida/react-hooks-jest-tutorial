@@ -23,7 +23,7 @@ describe("rendering components", () => {
     shallow(<Notification />);
   });
   it("render button", () => {
-    const wrapper = mount(<AccounBalance accounts={} />);
+    const wrapper = mount(<AccounBalance accounts={userBalance} />);
     const label = wrapper.find("#balance-button").text();
     expect(label).toEqual("Send 100$");
   });
