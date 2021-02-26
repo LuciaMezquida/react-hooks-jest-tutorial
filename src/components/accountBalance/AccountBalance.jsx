@@ -23,6 +23,8 @@ const AccounBalance = () => {
   }
   return(
     <div className="container">
+
+<h1>Welcome in the personal finance app!</h1>
       <div className="row align-items-center">
         <div className="box col-sm shadow p-3 mb-5 bg-body rounded">
           <h4 className="title">Your account balance:</h4>
