@@ -39,17 +39,3 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
-.notification {
-  padding: 10px;
-  width: 400px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 10px;
-  opacity: 0.9;
-}
-.button {
-  position: relative;
-  right: -176px;
-}

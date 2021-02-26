@@ -1,4 +1,5 @@
 import React,{ useState, useEffect} from 'react';
+import './Notification.css'
 
 const Notification = (props) => {
   const [notification, setNotification] = useState(false)
