@@ -2,7 +2,7 @@ import React from "react";
 import App from "./components/App";
 import AccountBalance from "./components/accountBalance/AccountBalance";
 import Notification from "./components/Notification/Notification";
-import { shallow } from "enzyme";
+import { shallow, mount } from "enzyme";
 import AccounBalance from "./components/accountBalance/AccountBalance";
 
 const userBalance = {
