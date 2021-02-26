@@ -2,6 +2,9 @@
   background-color: white;
   margin: 20px;
 }
+.container {
+  margin-top: 16%;
+}
 .title {
   color: #0808088c;
   margin-bottom: 8%;
@@ -35,4 +38,18 @@
   color: aliceblue;
   font-size: 1.2rem;
   font-weight: 600;
+}
+.notification {
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  transition: ease 1s;
+}
+.button {
+  position: relative;
+  right: -176px;
 }
